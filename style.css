@@ -18,3 +18,15 @@ button {
     color: #fff;
     background-color: #025157;
 }
+
+#nav-img{
+    weight: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

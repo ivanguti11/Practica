@@ -34,23 +34,27 @@ li {
 .header {
     margin: 40px 20px;
     height: 70px;
+    border: solid 4px blue;
     font-family: sans-serif;
 }
 
 .header > * {
     display: inline-block;
-    font-family: sans-serif;
     vertical-align: middle;
     height: 100%;
+    border: solid 4px red;
     line-height: 45px;
 }
 
 .logo {
-    width: 13%;
+    width: 14%;
+    font-size: 0;
 }
 
 .logo > * {
-    width: 40%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .navbar {
@@ -62,13 +66,12 @@ li {
 }
 
 .menu-item {
-    display: inline;
     margin-right: 7px;
     margin-left: 7px;
 }
 
 .actions {
-    width: 15%;
+    width: 14%;
     text-align: right;
     font-size: 14px;
     font-weight: 600;

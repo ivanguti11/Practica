@@ -102,14 +102,14 @@ li {
 }
 
 .main input {
-    padding: 12px 20px;
+    padding: 13px 20px;
     border: 1px solid #b6b6b6;
-    border-radius: 8px;
+    border-radius: 8px 0px 0px 8px;
 }
 .main button {
-        padding: 14px 12px;
-        border: 0;
-        border-radius: 5px;
+    padding: 14px 12px;
+    border: 0;
+    border-radius: 0px 8px 8px 0px;
 }
 
 h2 {
@@ -137,13 +137,13 @@ h2 {
 .publish button {
     padding: 14px 12px;
     border: 0;
-    border-radius: 5px;
+    border-radius: 0px 8px 8px 0px;
 }
 
 .publish input {
-    padding: 12px 20px;
+    padding: 13px 20px;
     border: 1px solid #b6b6b6;
-    border-radius: 8px;
+    border-radius: 8px 0px 0px 8px;
     
 }
 .promo {

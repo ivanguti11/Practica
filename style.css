@@ -60,13 +60,13 @@ li {
     object-fit: contain;
 }
 
-.navbar {
+/*.navbar {
     width: 70%;
     text-align: center;
     color: #025157;
     font-weight: 500;
     
-}
+}*/
 
 .menu-item {
     margin-right: 7px;
@@ -85,6 +85,7 @@ li {
 }
 
 .actions a {
+    margin-top: 20px;
     color: #67b54b;
 }
 
@@ -173,7 +174,6 @@ h2 {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fffbf7;
 }
 
 .features-custom{
@@ -289,9 +289,8 @@ h2 {
 }
 
 @media (max-width: 575px) {
-    .navbar,
     .actions {
-    display: none;
+    display: none!important;
     }
     
     h1 {
@@ -299,5 +298,41 @@ h2 {
     }
     .main {
         margin-top: 200px;
+    }
+    p{
+        width: 97%;
+    }
+    .main p {
+        font-size: 16px;
+    }
+    .main > img{
+        width: 100%;
+    }
+    .promo {
+        display:flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .explanatory-video > video{ 
+        width: 100%;
+    }
+    .publish {
+        margin-left: 20px;
+    }
+    .publish h2{
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .features {
+        grid-template: repeat(4, 1fr) / 1fr;
+        padding-left: 0;
+        padding-right: 0; 
+    }
+    .feature-image {
+        display: none;
+    }
+    .features .feature-card .feature-content img {
+        display: none;
     }
 }

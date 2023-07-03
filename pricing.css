@@ -1,0 +1,54 @@
+.actions {
+    width: 16%;
+    text-align: right;
+    font-weight: 600;
+}
+
+.actions > * {
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.actions a {
+    margin-top: 20px;
+    color: #67b54b;
+}
+
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    font-size: 14px;
+    padding: 20px 14px;
+    border: 5;
+    border-radius: 5px;
+}
+.uno{
+    margin-top: 40vh;
+    height: 50vh;
+    text-align: center;
+}
+
+.faq {
+    margin-top: 50px;
+    padding-bottom: 120px;
+}
+
+.faq h2 {
+    color: #025157;
+    font-family: "Alegreya", serif;
+}
+
+.faq .card-header {
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.faq h2 > button {
+    color: #025157;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.faq .card .card-body a {
+    color: #6abf4b;
+}
